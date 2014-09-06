@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical" >
+
+    <TextView
+        android:id="@+id/confessions_received_title"
+        style="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/confessions_received_title"
+        android:textSize="28sp" />
+
+    <GridView
+        android:id="@+id/confessions_received"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="1dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true" >
+
+    </GridView>
+
+</LinearLayout>

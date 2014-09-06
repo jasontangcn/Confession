@@ -1,0 +1,81 @@
+<LinearLayout android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="12dp" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/confession_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="@string/confession_title"
+        android:textSize="28sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp" >
+
+            <TextView
+                android:id="@+id/confession_mobile_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/confession_mobile"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/confession_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp" >
+
+            <TextView
+                android:id="@+id/confession_said_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/confession_said"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/confession_said"
+                android:layout_width="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:minLines="6" />
+
+            <ImageView
+                android:id="@+id/confession_select_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/v143_24" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/confession_submit"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/confession_submit"
+        android:textSize="20sp" />
+
+        <requestFocus />
+
+</LinearLayout>
