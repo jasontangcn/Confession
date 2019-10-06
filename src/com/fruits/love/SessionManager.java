@@ -1,4 +1,4 @@
-package com.fairchild.love;
+package com.fruits.love;
 
 import java.util.HashMap;
 import java.util.Map;

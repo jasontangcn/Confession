@@ -1,4 +1,4 @@
-package com.fairchild.love;
+package com.fruits.love;
 
 public class Constants {
 	public static final String HTTP_BASE = "http://www.jastang.net:8080/Confession/";

@@ -1,4 +1,4 @@
-package com.fairchild.love;
+package com.fruits.love;
 
 import android.app.Activity;
 import android.content.Intent;

@@ -1,4 +1,4 @@
-package com.fairchild.love;
+package com.fruits.love;
 
 import android.content.Context;
 import android.content.SharedPreferences;
